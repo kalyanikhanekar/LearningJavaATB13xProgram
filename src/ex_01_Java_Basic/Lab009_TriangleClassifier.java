@@ -23,7 +23,7 @@ public class Lab009_TriangleClassifier {
         b=sc.nextInt();
         c=sc.nextInt();
 
-        if(a==b&&a==c&&b==c){
+        if(a==b&&b==c){
             System.out.println("The Triangle is Equilateral Triangle");
         }
         else if(a==b || b==c ||a==c){
