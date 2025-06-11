@@ -19,6 +19,8 @@ public class Lab019_UsePrintf_ForTablePrinting {
         System.out.printf("%d * % d = %d \n",a,b,a*b++);
         System.out.printf("%d * % d = %d \n",a,b,a*b++);
 
+
+
     }
 }
 /* OutPut
