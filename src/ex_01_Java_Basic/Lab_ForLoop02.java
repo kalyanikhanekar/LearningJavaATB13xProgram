@@ -7,8 +7,9 @@ public class Lab_ForLoop02 {
             System.out.println(i);
         }
         int j=0;
-        for(;j<10;j++){
+        for(;j<10;){
             System.out.println(j);
+            j++;
 
 
         }

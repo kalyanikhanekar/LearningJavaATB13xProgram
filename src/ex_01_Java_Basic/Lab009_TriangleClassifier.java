@@ -12,7 +12,7 @@ Use an if-else statement to classify the triangle.
 public class Lab009_TriangleClassifier {
 
     public static void main(String[] args) {
-        //Take 3 sides as a input from user
+        //Take 3 sides as  input from user
        Scanner sc=new Scanner(System.in);
 
        int a;
