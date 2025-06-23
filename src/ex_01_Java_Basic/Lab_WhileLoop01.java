@@ -7,6 +7,8 @@ public class Lab_WhileLoop01 {
             System.out.println(i1);
             i1++;
         }
+
+
     }
 }
 /*

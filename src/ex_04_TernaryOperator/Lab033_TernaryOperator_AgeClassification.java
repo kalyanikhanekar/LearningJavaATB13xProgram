@@ -6,6 +6,8 @@ public class Lab033_TernaryOperator_AgeClassification {
 
        // String s = (age < 65) ? "Adult" : "senior";
         String result=(age>18)?(age < 65) ? "Adult" : "senior":"Minor";
-        System.out.println(result);
+        if(result=="Adult"||result=="senior") {
+            System.out.println("Eligibale For Vote "+result);
+        }
     }
 }

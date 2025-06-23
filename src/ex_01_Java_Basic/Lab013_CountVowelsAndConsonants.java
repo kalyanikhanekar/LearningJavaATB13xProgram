@@ -16,6 +16,7 @@ public class Lab013_CountVowelsAndConsonants {
         System.out.println("Enter the string Do not enter space on special characters");
         str=sc.next();
 
+
         for(int i=0;i<str.length();i++){
             char c=str.toLowerCase().charAt(i);
             if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u'){
