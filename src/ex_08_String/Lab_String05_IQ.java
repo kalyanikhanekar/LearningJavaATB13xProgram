@@ -1,4 +1,4 @@
-package Ex_08_String;
+package ex_08_String;
 
 public class Lab_String05_IQ {
     String s1 = "Hello";

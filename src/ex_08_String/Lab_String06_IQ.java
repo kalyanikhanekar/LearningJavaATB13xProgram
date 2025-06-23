@@ -1,4 +1,4 @@
-package Ex_08_String;
+package ex_08_String;
 
 public class Lab_String06_IQ {
     public static void main(String[] args) {
