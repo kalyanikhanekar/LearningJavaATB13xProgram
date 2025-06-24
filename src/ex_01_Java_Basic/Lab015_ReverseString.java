@@ -17,6 +17,13 @@ public class Lab015_ReverseString {
 
         }
         System.out.println("Original String  "+str+"  Reverse String "+reverse);
+
+        if(str.equalsIgnoreCase(reverse)){
+            System.out.println("Palindrome String  "+str);
+        }
+        else{
+            System.out.println("Not Palindrome "+str);
+        }
     }
 
 

@@ -7,6 +7,8 @@ public class Lab013_CountVowelsAndConsonants {
 
         //Define variables for store count of vowels and consonants
 
+
+
         int vowels=0;
         int consonants=0;
 
