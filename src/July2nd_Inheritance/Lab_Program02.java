@@ -1,4 +1,4 @@
-package ex_12_Inheritance;
+package July2nd_Inheritance;
 
 class Vehicle{
 
