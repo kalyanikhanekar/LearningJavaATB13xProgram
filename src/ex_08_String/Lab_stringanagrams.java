@@ -39,7 +39,7 @@ public class Lab_stringanagrams {
             }
             int flag=1;
            for(Map.Entry<Character,Integer> object:hm1.entrySet()){
-             char c=  object.getKey();
+             char c= object.getKey();
 
 
                    if(!hm2.containsKey(c)) {
@@ -55,9 +55,6 @@ public class Lab_stringanagrams {
                            break;
                        }
                    }
-               {
-
-               }
 
                }
 

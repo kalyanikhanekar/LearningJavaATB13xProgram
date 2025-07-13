@@ -8,7 +8,7 @@ import java.util.Map;
 2.Check if two strings are anagrams.
 Input: "listen", "silent" → Output: true
 3.Remove all duplicate characters from a string.
-
+4.Split a string into words and reverse each word
  */
 public class Lab_StringAllInOne {
 
@@ -19,7 +19,9 @@ public class Lab_StringAllInOne {
        // obj.countVowelConsonentsDigitSpecialChar(str);
       //  obj.stringAnagram(new StringBuilder("listen"), new StringBuilder("silant"));
      //  obj.removeDuplicateChar("characters ");
-        obj.firstNonRepeating("swiss");
+       // obj.firstNonRepeating("swiss");
+        //obj.reverseEachWord("Java is fun");
+        obj.longestWord("Java is fun");
 
 
 
@@ -175,6 +177,43 @@ public class Lab_StringAllInOne {
 
 
 
+    }
+
+    //Split a string into words and reverse each word
+    void reverseEachWord(String str){
+
+        String array[]=str.split(" ");
+        String arraynew[];
+        for(int i=0;i<array.length;i++){
+            for(int j=array[i].length()-1;j>=0;j--){
+                System.out.print(array[i].charAt(j));
+            }
+            System.out.print("\t");
+
+        }
+    }
+
+    //longest word
+    void longestWord(String str){
+
+
+        String array[]=str.split(" ");
+        int max=0;
+        int k=0;
+        int index=0;
+        for(int i=0;i<array.length;i++){
+            for( int j=0;j<array[i].length();j++) {
+             k++;
+                if(max<k){
+                    max=k;
+                    index=i;
+
+                }
+            }
+
+        }
+
+        System.out.println("Longest word is "+array[index]);
     }
 
 }
