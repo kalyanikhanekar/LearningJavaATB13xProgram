@@ -24,7 +24,7 @@ public class Lab_GroupWordsbyLengthUsingMap {
         }
         for(Map.Entry<Integer,List<String>>obj:hm.entrySet()){
 
-            System.out.println(obj.getKey()+" - > "+obj.getValue());
+            System.out.println(obj.getKey()+" -> "+obj.getValue());
         }
 
     }

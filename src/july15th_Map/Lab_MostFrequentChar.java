@@ -12,7 +12,7 @@ public class Lab_MostFrequentChar {
         int max=0;
        char ch;
         for(int i=0;i<s.length();i++){
-            char c=s.charAt(i);
+            char c = s.charAt(i);
 
             if(!hm.containsKey(c)){
                 hm.put(c,1);
