@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class Lab_PyramidTriangle {
     public static void main(String[] args) {
 
+
+
+
+
         int n = 5; // number of rows
         int spc = n - 1; // initial space count
         int str = 1; // initial star count
