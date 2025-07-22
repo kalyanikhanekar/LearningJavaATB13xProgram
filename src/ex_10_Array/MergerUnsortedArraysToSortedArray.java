@@ -72,6 +72,13 @@ public class MergerUnsortedArraysToSortedArray {
         }
 
 
+        if(arr.length>b.length){
+            max_len=arr.length;
+            min_len=b.length;
+        }else{
+            max_len=b.length;
+            min_len=arr.length;
+        }
 
         if(min_len== arr.length){
             while(k<b.length){
@@ -88,6 +95,7 @@ public class MergerUnsortedArraysToSortedArray {
                j++;
             }
         }
+
 
         System.out.println(Arrays.toString(c));
 
